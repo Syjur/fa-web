@@ -1,0 +1,100 @@
+
+/* universel selector */
+*{margin: 0;
+padding: 0;
+border: 0;
+}
+/* Element/name selector */
+   body{
+      background-color: aqua;
+   }
+
+/* id selector */
+#a-box{
+   background-color: rgb(105, 41, 70);
+   color:rgb(233, 207, 207);
+   text-align: center;
+   width: 50%;
+   margin: 5% auto;
+  border-radius: 10px;
+
+}
+#fa-box{
+   background-color: rgb(41, 105, 54);
+   color:rgb(233, 207, 207);
+   text-align: center;
+   width: 50%;
+   margin: 5% auto;
+  border-radius: 10px;}
+  #f-box{
+   background-color: rgb(152, 66, 152);
+   color:rgb(233, 207, 207);
+   text-align: center;
+   width: 50%;
+   margin: 5% auto;
+  border-radius: 10px;}
+/* class selector */
+.a-img{
+width: 150px;
+
+
+}
+.fa-img{
+   width: 150px;
+   }
+   .f-img{
+      width: 150px;
+   }
+/* Decenden selector */
+#a-box h1{
+   font-size: 20px;
+   text-transform: uppercase;
+}
+#fa-box h1{
+   font-size: 20px;
+   text-transform: uppercase;
+}
+#f-box h1{
+   font-size: 20px;
+   text-transform: uppercase;}
+/* grouping selector */
+ input,label{
+   display: block;
+   width: 50%;
+   margin: auto;
+   padding: 10px;
+   border-radius: 10px;
+
+
+ }
+ input{
+background-color: transparent;
+color: wheat;
+border: 1px solid black;
+   
+ }
+ label{
+   font-size: 20px;
+ }
+ p{
+   font-size: 20px;
+ }
+p a{
+   text-decoration: none;
+   color:rgb(0, 255, 102) ;
+   font-size: 15px;
+
+}
+input:focus{
+   background-color:rgb(31, 6, 6) ;
+}
+input[type="submit"]{
+   background-color: darkslategray;
+   transition: ease-in-out 0.8s;
+   margin: 20px auto;
+   width: 25%;
+   border: 1px solid black;
+}
+input:hover[type="submit"]{
+   background-color: transparent;
+}
